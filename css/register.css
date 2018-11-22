@@ -1,0 +1,96 @@
+
+form{
+	text-align:  center;
+}
+body{
+	margin :0;
+	padding : 0;
+}
+
+a{
+	text-decoration:none;
+
+}
+.wrapper
+{
+	background-image: url("../images/backgrounds/table.jpg");
+	background-size: 100%;
+	width : 100%;
+	height :100%;
+	min-width: 950px;
+} 
+
+.heading{
+text-shadow: 2px 2px 4px #4c4242;
+
+font-size: 230px;
+
+font-family: 'Pacifico', cursive;
+
+color: #88bdaa;
+
+margin-top: 320px;
+
+position: absolute;
+
+}
+
+.login_window {
+	position: relative;
+	margin-right :100px;
+	margin-left: auto ;
+	top : 8%;
+	width :35%;
+	background-color: rgba(233, 239, 236, 0.8);
+	border :1px;
+	border-radius: 11px;
+
+}
+.cloumn {
+	margin-top : 40px;
+}
+
+.login_header {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color: #88bdaa;
+	color: #fff;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+}
+
+.login_header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #2980b9;
+}
+
+
+
+input[type="submit"] {
+background-color: #63cab2;
+border: 1px solid #3498db;
+border-radius: 3px;
+margin: 5px 0 10px 0;
+padding: 5px 10px 5px 10px;
+color: #2A8780;
+text-shadow: #73B6E2 0.5px 0.5px 0px;
+font-family: 'Bellota-BoldItalic', sans-serif;
+font-size: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;
+}
